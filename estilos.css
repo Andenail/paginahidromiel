@@ -151,7 +151,7 @@ h3 {
 /* esto moficia el contendor de texto en taberna */
 
 .que-hacemos p {
-    border: 2px solid;
+    border: 3px solid;
     max-width: 800px;
     background-color: rgb(94, 52, 52);
     line-height: 2;
@@ -187,7 +187,7 @@ h3 {
 }
 
 
-/*esto modifica el texto en el contenedor de taberna */
+/*esto modifica el texto en el contenedor de mercado */
 
 .qs-contenido p {
     color: rgb(255, 255, 255);
@@ -269,7 +269,9 @@ figure {
     max-width: 1300px;
     border-bottom: 15px solid #633434;
     padding-bottom: 5px;
+    padding-left: 7px;
     line-height: 2;
+    border: 3px solid;
     font-family: 'MedievalSharp', cursive;
     background-image: url("imagenes/fondo.jpg");
     color: #8ae217;
