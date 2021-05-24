@@ -1,0 +1,292 @@
+/* leyes de jerarquia de colisiones CSS 
+1 - especificidad 
+2 - Importancia
+3 - Ubicación
+4 - Fuerza del selector
+*/
+
+
+/* Reset   ****  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    background-image: url("fondo.jpg");
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+
+/* todo lo que cambio aca modifica el cuerpo entero (boby) */
+
+body {
+    background-image: url("mapa.jpg");
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 170;
+    color: #ffffff;
+    background-color: #d8c0c0;
+}
+
+
+/* letras del menu */
+
+.menu a {
+    color: rgb(202, 194, 194);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border: 1px solid;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+/* pseudo-clases */
+
+.menu a:hover {
+    color: rgb(31, 27, 27);
+}
+
+nav {
+    background-color: rgb(85, 62, 62);
+}
+
+
+/* esto cambia el bienvenidos */
+
+.encabezado {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 95px;
+    text-decoration: underline;
+}
+
+
+/* esto modifica el contain de bienvenidos */
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 10px solid;
+    max-width: 1170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(85, 54, 54, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("imagenes/mapa.jpg");
+}
+
+
+/* esto modifica el texto de bienvenidos */
+
+h2 {
+    font-weight: 900;
+    font-size: 100px;
+    margin: 0;
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    font-family: 900;
+}
+
+
+/*  modifica contenedor de taberna */
+
+.que-hacemos {
+    max-width: 900px;
+    margin: auto;
+    background-image: url("imagenes/t2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* esto cambia los titulos */
+
+h3 {
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+
+/* esto moficia el contendor de texto en taberna */
+
+.que-hacemos p {
+    border: 2px solid;
+    max-width: 800px;
+    background-color: rgb(94, 52, 52);
+    line-height: 2;
+    padding: 30px 30px 30px 30px;
+    font: size 40px;
+    background-image: url("imagenes/fondo.jpg");
+}
+
+
+/* Mercado  */
+
+.quienes-somos {
+    background-image: url("imagenes/tab2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#quienesSomos {
+    max-width: 10px;
+    margin: 5px;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    font: size 20px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.qs-contenido {
+    width: 90%;
+    padding: 115px 0 170px 140px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+
+/*esto modifica el texto en el contenedor de taberna */
+
+.qs-contenido p {
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    margin-bottom: 90px;
+    font: size 170px;
+}
+
+.boton {
+    padding: 20px 50px;
+    background-color: rgb(44, 31, 31);
+    color: rgb(63, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.boton:hover {
+    background-color: rgb(179, 179, 146);
+}
+
+
+/*  galeria  */
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.gradiente {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+}
+
+.miniaturas {
+    display: fex;
+    justify-content: center;
+}
+
+.titulo-galeria {
+    text-align: center;
+}
+
+figure {
+    margin: 10px;
+}
+
+.miniaturas a {
+    margin: 10px;
+}
+
+.minuaturas img {
+    transition: all 2s linear;
+}
+
+.miniaturas img:hover {
+    transform: scale(1.2);
+}
+
+
+/*  contacto */
+
+.mozaico {
+    border-top: 15px solid #b13333;
+    border-bottom: 15px solid #f10000;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+
+/* esto modifica el texto de tabernero foot */
+
+.mozaico p {
+    max-width: 1300px;
+    border-bottom: 15px solid #a52626;
+    padding-bottom: 5px;
+    line-height: 2;
+    font-family: 'MedievalSharp', cursive;
+}
+
+
+/* esto moifica el color de los botones de redes sociales */
+
+.mozaico i {
+    text-decoration: none;
+    color: #030a29
+}
+
+
+/* esto modifica los botones de redes sociales */
+
+.mozaico i {
+    font-size: 40px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.backtotal {
+    background-image: url("imagenes/mapa2.jpg");
+    background-size: cover;
+}
