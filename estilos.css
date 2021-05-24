@@ -47,9 +47,10 @@ body {
 /* letras del menu */
 
 .menu a {
-    color: rgb(202, 194, 194);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    font-size: 30px;
     border: 1px solid;
     display: inline-block;
     padding: 10px 20px;
@@ -70,8 +71,11 @@ body {
     color: rgb(31, 27, 27);
 }
 
+
+/* back de la botonera de nav */
+
 nav {
-    background-color: rgb(85, 62, 62);
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -263,10 +267,12 @@ figure {
 
 .mozaico p {
     max-width: 1300px;
-    border-bottom: 15px solid #a52626;
+    border-bottom: 15px solid #633434;
     padding-bottom: 5px;
     line-height: 2;
     font-family: 'MedievalSharp', cursive;
+    background-image: url("imagenes/fondo.jpg");
+    color: #8ae217;
 }
 
 
@@ -274,19 +280,19 @@ figure {
 
 .mozaico i {
     text-decoration: none;
-    color: #030a29
+    color: #212c5a
 }
 
 
 /* esto modifica los botones de redes sociales */
 
 .mozaico i {
-    font-size: 40px;
-    margin-right: 5px;
-    margin-top: 10px;
+    font-size: 70px;
+    margin-right: 10px;
+    margin-top: 50px;
 }
 
 .backtotal {
-    background-image: url("imagenes/mapa2.jpg");
+    background-image: url("imagenes/fondo1.jpg");
     background-size: cover;
 }
