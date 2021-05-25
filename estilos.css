@@ -48,13 +48,13 @@ body {
 
 .menu a {
     color: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     text-decoration: none;
     font-size: 30px;
     border: 1px solid;
     display: inline-block;
     padding: 10px 20px;
-    margin: 20px;
+    margin: 5px;
     text-decoration: underline;
 }
 
@@ -68,14 +68,17 @@ body {
 /* pseudo-clases */
 
 .menu a:hover {
-    color: rgb(31, 27, 27);
+    color: rgb(90, 79, 16);
+    text-shadow: 0px 20px 5px #334e55;
+    font-family: 'MedievalSharp', cursive;
 }
 
 
 /* back de la botonera de nav */
 
 nav {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(124, 119, 119);
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 
@@ -89,6 +92,7 @@ nav {
     padding-bottom: 10px;
     margin-bottom: 95px;
     text-decoration: underline;
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 
@@ -115,6 +119,7 @@ h2 {
     font-size: 100px;
     margin: 0;
     text-decoration: underline;
+    text-shadow: 0 12px 0 #41330a;
 }
 
 h1 {
@@ -133,9 +138,11 @@ h1 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
-    padding-top: 3px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 
@@ -145,6 +152,7 @@ h3 {
     font-size: 30px;
     font-weight: 100;
     text-decoration: underline;
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 
@@ -158,6 +166,7 @@ h3 {
     padding: 30px 30px 30px 30px;
     font: size 40px;
     background-image: url("imagenes/fondo.jpg");
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 
@@ -178,12 +187,14 @@ h3 {
     margin-bottom: 20px;
     font: size 20px;
     font-family: 'MedievalSharp', cursive;
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 .qs-contenido {
     width: 90%;
     padding: 115px 0 170px 140px;
     font-family: 'MedievalSharp', cursive;
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 
@@ -194,6 +205,7 @@ h3 {
     line-height: 2;
     margin-bottom: 90px;
     font: size 170px;
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 .boton {
@@ -205,6 +217,7 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'MedievalSharp', cursive;
+    text-shadow: 0px 10px 5px #696969;
 }
 
 .boton:hover {
@@ -220,9 +233,10 @@ h3 {
 }
 
 .gradiente {
-    padding-top: 50px;
-    padding-bottom: 70px;
-    margin-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-shadow: 0 12px 0 #41330a;
 }
 
 .miniaturas {
@@ -254,12 +268,11 @@ figure {
 /*  contacto */
 
 .mozaico {
-    border-top: 15px solid #b13333;
+    border-top: 15px solid #070707;
     border-bottom: 15px solid #f10000;
     padding-top: 10px;
     padding-bottom: 50px;
     background-repeat: no-repeat;
-    justify-content: center;
 }
 
 
@@ -274,7 +287,9 @@ figure {
     border: 3px solid;
     font-family: 'MedievalSharp', cursive;
     background-image: url("imagenes/fondo.jpg");
+    justify-content: center;
     color: #8ae217;
+    text-shadow: 0px 20px 5px #312f2a;
 }
 
 
@@ -292,9 +307,14 @@ figure {
     font-size: 70px;
     margin-right: 10px;
     margin-top: 50px;
+    text-shadow: 0 12px 0 #41330a;
 }
 
 .backtotal {
     background-image: url("imagenes/fondo1.jpg");
     background-size: cover;
 }
+
+
+/* Con     text-shadow: 0 12px 0 #41330a; le doy sombra a las letras y
+las puedo formar con apariencia 3D tambien sirve para iconos */
