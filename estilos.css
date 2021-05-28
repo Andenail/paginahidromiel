@@ -40,7 +40,7 @@ body {
     font-family: 'MedievalSharp', cursive;
     font-weight: 170;
     color: #ffffff;
-    background-color: #d8c0c0;
+    background-color: #000000;
 }
 
 
@@ -77,7 +77,6 @@ body {
 /* back de la botonera de nav */
 
 nav {
-    background-color: rgb(124, 119, 119);
     text-shadow: 0px 20px 5px #312f2a;
 }
 
@@ -90,9 +89,10 @@ nav {
     background-repeat: no-repeat;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 95px;
+    margin-bottom: 70px;
     text-decoration: underline;
     text-shadow: 0px 20px 5px #312f2a;
+    width: 100%;
 }
 
 
@@ -132,17 +132,18 @@ h1 {
 /*  modifica contenedor de taberna */
 
 .que-hacemos {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     background-image: url("imagenes/t2.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: right;
+    background-size: 100%;
+    background-position-x: center;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-shadow: 0px 20px 5px #312f2a;
+    border: 2px solid;
 }
 
 
@@ -153,6 +154,7 @@ h3 {
     font-weight: 100;
     text-decoration: underline;
     text-shadow: 0px 20px 5px #312f2a;
+    background-size: 100%;
 }
 
 
@@ -175,7 +177,9 @@ h3 {
 .quienes-somos {
     background-image: url("imagenes/tab2.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-image: center;
+    border: 2px solid;
+    background-size: 100%;
 }
 
 #quienesSomos {
@@ -191,10 +195,11 @@ h3 {
 }
 
 .qs-contenido {
-    width: 90%;
-    padding: 115px 0 170px 140px;
+    width: 100%;
+    padding: 115px 0 170px 500px;
     font-family: 'MedievalSharp', cursive;
     text-shadow: 0px 20px 5px #312f2a;
+    border-bottom: 10px solid #075707;
 }
 
 
@@ -242,6 +247,7 @@ h3 {
 .miniaturas {
     display: fex;
     justify-content: center;
+    border: 2px solid;
 }
 
 .titulo-galeria {
@@ -257,7 +263,7 @@ figure {
 }
 
 .minuaturas img {
-    transition: all 2s linear;
+    transition: all 1s linear;
 }
 
 .miniaturas img:hover {
@@ -269,7 +275,7 @@ figure {
 
 .mozaico {
     border-top: 15px solid #070707;
-    border-bottom: 15px solid #f10000;
+    border-bottom: 15px solid #075707;
     padding-top: 10px;
     padding-bottom: 50px;
     background-repeat: no-repeat;
@@ -284,27 +290,27 @@ figure {
     padding-bottom: 5px;
     padding-left: 7px;
     line-height: 2;
-    border: 3px solid;
+    border: 2px solid;
     font-family: 'MedievalSharp', cursive;
     background-image: url("imagenes/fondo.jpg");
     justify-content: center;
     color: #8ae217;
     text-shadow: 0px 20px 5px #312f2a;
-    background-repeat: no-repeat;
+    border: 2px solid;
 }
 
 
 /* esto moifica el color de los botones de redes sociales */
 
-.mozaico i {
+.gradiente i {
     text-decoration: none;
-    color: #ffffff
+    color: #1a1961
 }
 
 
 /* esto modifica los botones de redes sociales */
 
-.mozaico i {
+.gradiente i {
     font-size: 70px;
     margin-right: 10px;
     margin-top: 50px;
@@ -312,7 +318,7 @@ figure {
 }
 
 .backtotal {
-    background-image: url("imagenes/fondo1.jpg");
+    background-image: url("imagenes/backmedievo8.jpg");
     background-size: cover;
 }
 
